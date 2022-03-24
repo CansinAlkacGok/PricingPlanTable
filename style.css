@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #181818;
+}
+
+div {
+  margin: 5rem auto;
+  padding: 3rem;
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  background: url(./images/charlesdeluvio-Lks7vei-eAg-unsplash.jpg) center/cover;
+}
+
+table {
+  padding: 2rem;
+  width: 50%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: center;
+  color: white;
+}
+
+table caption:first-child {
+  font-size: xx-large;
+  caption-side: top;
+  font-weight:900;
+  color: rgb(87, 86, 86);
+  text-transform: uppercase;
+}
+
+table caption:nth-child(2) {
+  font-style: italic;
+  margin: auto;
+  font-weight: bolder;
+  color: rgb(87, 86, 86);
+  width: 80%;
+  text-align: center;
+  padding: 2rem;
+}
+
+th,
+td {
+  padding: 1rem;
+  border: 1px solid grey;
+}
+
+thead {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+thead th:first-child,
+tfoot td:first-child button {
+  background-color: #e48285;
+}
+
+thead th:nth-child(2),
+tfoot td:nth-child(2) button {
+  background-color: #db535a;
+}
+
+thead th:last-child,
+tfoot td:last-child button {
+  background-color: #d03d41;
+}
+
+tbody tr:nth-child(odd),
+tfoot tr {
+  background-color: #181818;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #323232;
+}
+
+
+tfoot button {
+  padding: 0.5rem;
+  width: 60%;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
